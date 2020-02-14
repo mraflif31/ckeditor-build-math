@@ -1,29 +1,17 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "16.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "@ckeditor/ckeditor5-build-math",
+  "version": "1.0.0",
+  "description": "CKEditor 5 build with math and chemistry plugin from wiris",
   "keywords": [
-    "ckeditor5-build",
-    "ckeditor",
     "ckeditor5",
-    "ckeditor 5",
-    "wysiwyg",
-    "rich text",
-    "editor",
-    "html",
-    "contentEditable",
-    "editing",
-    "operational transformation",
-    "ot",
-    "collaboration",
-    "collaborative",
-    "real-time",
-    "framework"
+    "math"
   ],
   "main": "./build/ckeditor.js",
   "files": [
     "build"
   ],
+  "author": "M Rafli",
+  "license": "ISC",
   "devDependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^16.0.0",
     "@ckeditor/ckeditor5-autoformat": "^16.0.0",
@@ -57,19 +45,20 @@
     "stylelint-config-ckeditor5": "^1.0.0",
     "terser-webpack-plugin": "^2.2.1",
     "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.6",
+    "@wiris/mathtype-ckeditor5": "^7.17.1"
   },
   "engines": {
     "node": ">=8.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
-  "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": {
+    "url": "https://github.com/mraflif31/ckeditor-build-math/issues"
+  },
+  "homepage": "https://github.com/mraflif31/ckeditor-build-math#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "https://github.com/mraflif31/ckeditor-build-math.git"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -94,7 +83,4 @@
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {
-    "@wiris/mathtype-ckeditor5": "^7.17.1"
-  }
 }
