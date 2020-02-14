@@ -1,3 +1,5 @@
+This is a fork from https://github.com/ckeditor/ckeditor5-build-classic
+
 ## Documentation
 
 See:
