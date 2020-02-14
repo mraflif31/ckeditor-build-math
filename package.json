@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-math",
+  "name": "ckeditor5-build-math",
   "version": "1.0.0",
   "description": "CKEditor 5 build with math and chemistry plugin from wiris",
   "keywords": [
