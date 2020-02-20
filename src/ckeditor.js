@@ -86,8 +86,6 @@ ClassicEditor.defaultConfig = {
 		MathType],
 	toolbar: {
 		items: [
-			'heading',
-			'|',
 			'bold',
 			'italic',
 			'link',
