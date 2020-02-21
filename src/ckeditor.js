@@ -30,6 +30,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
 import MathType from '@wiris/mathtype-ckeditor5/src/plugin';
+import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -56,7 +57,8 @@ ClassicEditor.builtinPlugins = [
 	Paragraph,
 	PasteFromOffice,
 	Table,
-	TableToolbar
+	TableToolbar,
+	// Base64UploadAdapter,
 ];
 
 // Editor configuration.
@@ -83,7 +85,9 @@ ClassicEditor.defaultConfig = {
 		PasteFromOffice,
 		Table,
 		TableToolbar,
-		MathType],
+		MathType,
+		Base64UploadAdapter,
+	],
 	toolbar: {
 		items: [
 			'bold',

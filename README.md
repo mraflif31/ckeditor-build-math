@@ -12,17 +12,25 @@ See:
 ## Quick start
 
 ```bash
-npm install --save ckeditor5-build-math
+npm install --save @ckeditor/ckeditor5-build-math
 ```
 
 And then
 
 ```js
-import ClassicEditor from 'ckeditor5-build-math';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
-<CKEditor
-	editor={ClassicEditor}
-	...
+// Or using the CommonJS version:
+// const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic' );
+
+ClassicEditor
+	.create( document.querySelector( '#editor' ) )
+	.then( editor => {
+		window.editor = editor;
+	} )
+	.catch( error => {
+		console.error( 'There was a problem initializing the editor.', error );
+	} );
 ```
 
 ## License

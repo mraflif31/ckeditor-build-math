@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-math",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "CKEditor 5 build with math and chemistry plugin from wiris",
   "keywords": [
     "ckeditor5",
